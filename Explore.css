@@ -111,6 +111,35 @@ body {
     font-size: 14px;
 
 }
+.Messagesinfo{
+    padding: 80PX;
+    border-top:1px solid #272727 ;
+    border-right:  1px solid #272727;
+    border-bottom:  1px solid #272727;
+    margin-top: 100px;
+    background-color: #000000;
+    color: #e6ecf0;
+}
+.Messagesinfo h3{
+    font-size: 35px;
+}
+.Messagesinfo p{
+    color:#5b676e;
+}
+.btnmsg{
+    border: 1px solid #272727;
+    background-color: #000000;
+    color: #e6ecf0;
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    font-weight:900;
+}
+.btnmsg:hover {
+    background-color: #e6ecf0;
+    color: #000000;
+}
+
 .trending{
     color: #e6ecf0;
     margin-top: 15px;
