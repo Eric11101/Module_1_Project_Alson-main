@@ -79,12 +79,20 @@ body {
     display: flex;
     flex-direction: column; 
 }
-
 .feed__header h2 {
     color: #e6ecf0;
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 40px; 
+}
+.feed__header h3 {
+    color: #e6ecf0;
+}
+.notif{
+    font-size: 24px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
 }
 nav{
     position: relative;

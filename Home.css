@@ -73,9 +73,19 @@ body {
 /* Feed */
 .feed {
     flex: 0.5;
-    border-right: 1px solid var(--twitter-background);
     min-width: fit-content;
-
+    overflow-y: scroll;
+    scrollbar-width: thin;  
+    scrollbar-color: var(--twitter-background);
+    &::-webkit-scrollbar {
+        width: 12px;  
+    }
+    &::-webkit-scrollbar-track {
+        background-color: var(--your-scrollbar-track-color); 
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--your-scrollbar-thumb-color); 
+    }
 }
 
 .feed__header {
