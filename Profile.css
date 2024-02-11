@@ -220,7 +220,6 @@ nav a {
 .widgets {
     flex: 0.3;
 }
-
 .widgets__input {
     display: flex;
     align-items: center;
@@ -252,6 +251,9 @@ nav a {
     color: #e6ecf0;
     font-size: 18px;
     font-weight: 800;           
+}
+.widgets__widgetContainer p{
+    font-size: 14px;
 }
 
 .widgets__widgetContainer h2 {

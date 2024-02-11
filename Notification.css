@@ -50,14 +50,13 @@ body {
 .sidebar__tweet {
     width: 100%;
     background-color: rgb(3, 0, 0);
-    border: 2px solid;
+    border: 1px solid #272727;
     color: white;
     font-weight: 900;
     border-radius: 30px;
     height: 50px;
     margin-top: 20px;
 }
-
 .logout {
     height: 35px;
     width: 35px;
@@ -94,6 +93,7 @@ nav{
     font-size: 24px;
     letter-spacing: 2px;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -156,6 +156,9 @@ nav li:last-child {
     color: #e6ecf0;
     font-size: 18px;
     font-weight: 800;
+}
+.widgets__widgetContainer p{
+    font-size: 14px;
 }
 .trending{
     color: #e6ecf0;
