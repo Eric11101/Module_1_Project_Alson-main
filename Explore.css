@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0a0000;
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.sidebar {
+    border-right: 1px solid #272727;
+    flex: 0.2;
+    background-color: black;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidebarOption {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    color: #e6ecf0;
+    transition: background-color 100ms ease-out, color 100ms ease-out;
+}
+
+.sidebarOption:hover {
+    background-color: #2A2A2A;
+    border-radius: 30px;
+}
+.sidebarOption.active {
+    color: #2A2A2A;
+}
+.sidebarOption a{
+    text-decoration: none;
+    color: #e6ecf0;
+}
+.sidebar__tweet {
+    width: 100%;
+    background-color: rgb(3, 0, 0);
+    border: 2px solid;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.logout {
+    height: 35px;
+    width: 35px;
+    margin-right: 13px;
+}
+
+.material-icons{
+    padding: 10px;
+}
+
+.Explore {
+    padding-top: 17%;
+    border-right:1px solid #272727;
+    background-color: #0a0000;
+    color: aliceblue;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.Explore  p{
+    margin: 15%;
+    
+}
+
+.Explore a{
+    font-weight: 900;
+    margin-top: 10%;
+    padding: 20px 50px;
+    border: 2px solid aliceblue;
+    border-radius: 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Explore a:hover{
+    background-color: aliceblue;
+    color: #0a0000;
+}
+
+/* Widgets */
+.widgets {
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.widgets__input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets__input input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+.widgets__searchIcon {
+    color: gray;
+}
+.widgets__widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #16181C;
+    border-radius: 20px;
+    color: #e6ecf0;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.widgets__widgetContainer{
+    color: #e6ecf0;
+    font-size: 18px;
+    font-weight: 800;
+}
+.trending{
+    color: #e6ecf0;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #16181C;
+    border-radius: 20px;
+} 
