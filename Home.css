@@ -231,11 +231,14 @@ body {
     font-size: 18px;
     font-weight: 800;
 }
+.widgets__widgetContainer p{
+    font-size: 14px;
+
+}
 .trending{
     color: #e6ecf0;
     margin-top: 15px;
     margin-left: 20px;
-    padding: 20px;
     background-color: #16181C;
     border-radius: 20px;
 }
