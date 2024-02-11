@@ -94,13 +94,13 @@ nav{
     font-size: 24px;
     letter-spacing: 2px;
 }
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around; 
     padding: 20px;  
     text-align: center;
+    border-bottom: 1px solid var(--twitter-background);
 }
 nav li {
     color: #e6ecf0;
