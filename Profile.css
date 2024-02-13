@@ -266,6 +266,8 @@ nav a {
 }
 
 .widgets__input input {
+    color: #e6ecf0;
+    font-size: 20px;
     border: none;
     background-color:#2A2A2A;
 }
