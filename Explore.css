@@ -55,17 +55,16 @@ body {
     height: 50px;
     margin-top: 20px;
 }
-
 .logout {
     height: 35px;
 
     width: 35px;
     margin-right: 13px;
 }
-
 .material-icons{
     padding: 10px;
 }
+
 /* Widgets */
 .widgets {
     background-color: #000000;
@@ -73,7 +72,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .widgets__input {
     display: flex;
     align-items: center;
